@@ -1,7 +1,7 @@
 {
   "name": "dms-helpline-board",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "src/server.js",
   "repository": "https://github.com/Dallas-Makerspace/Helpline-Board-PWA",
   "author": "Dwight Spencer <dwightaspencer@gmail.com>",
   "license": "MIT",
@@ -10,6 +10,7 @@
   "scripts": {
     "publish:webapp": "npm run build && npm run deploy",
     "build": "echo No steps defined && exit 1",
+    "start": "npm exec node src/server.js"
     "deploy": "echo Subtree for dist -> gh-pages not configured && exit 1"
   },
   "dependencies": {

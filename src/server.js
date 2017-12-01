@@ -21,7 +21,7 @@ app.use(express.static(path.resolve(__dirname, 'dist')));
 app.listen(process.env.PORT, () => { 
     let message  = 'Launched ';
         message += process.env.IP  + ':' + process.env.PORT;
-        message += '/graphiql';
+        message += '/';
         
     console.log(message);
 });
