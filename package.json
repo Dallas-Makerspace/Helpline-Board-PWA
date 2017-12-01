@@ -4,6 +4,7 @@
   "main": "server.js",
   "repository": "https://github.com/Dallas-Makerspace/Helpline-Board-PWA",
   "author": "Dwight Spencer <dwightaspencer@gmail.com>",
+  "description": "Mobile first job board for Dallas Makerspace in React, Mongo, nodejs, and GraphQL."
   "license": "MIT",
   "private": false,
   "scripts": {
