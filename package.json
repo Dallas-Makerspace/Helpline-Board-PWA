@@ -4,19 +4,30 @@
   "main": "server.js",
   "repository": "https://github.com/Dallas-Makerspace/Helpline-Board-PWA",
   "author": "Dwight Spencer <dwightaspencer@gmail.com>",
-  "description": "Mobile first job board for Dallas Makerspace in React, Mongo, nodejs, and GraphQL."
   "license": "MIT",
   "private": false,
+  "description": "Mobile first job board for Dallas Makerspace in React, Mongo, nodejs, and GraphQL.",
   "scripts": {
     "publish:webapp": "npm run build && npm run deploy",
     "build": "echo No steps defined && exit 1",
     "deploy": "echo Subtree for dist -> gh-pages not configured && exit 1"
   },
   "dependencies": {
+    "apollo-client-preset": "^1.0.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "fetch": "^1.1.0",
     "graphql": "^0.11.7",
     "graphql-server-express": "^1.2.0",
-    "graphql-tools": "^2.7.2"
+    "graphql-tag": "^2.5.0",
+    "graphql-tools": "^2.7.2",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.1",
+    "react-dom": "^16.2.0",
+    "react-mdl": "^1.11.0",
+    "react-router": "^4.2.0",
+    "webpack": "^3.9.1"
   }
 }
