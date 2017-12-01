@@ -6,6 +6,11 @@
   "author": "Dwight Spencer <dwightaspencer@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "publish:webapp": "npm run build && npm run deploy",
+    "build": "echo No steps defined && exit 1",
+    "deploy": "echo Subtree for dist -> gh-pages not configured && exit 1"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",

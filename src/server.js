@@ -12,7 +12,7 @@ var schema = makeExecutableSchema(helloSchema),
     
 // API Routes
 app.use('/graphql', bodyParser.json(), graphqlExpress({schema}));
-app.use('/graphiql', graphiqlExpress({endpointURL: '/graphql'}));
+app.use('/', graphiqlExpress({endpointURL: '/graphql'}));
 
 // UI Routes
 app.use(express.static(path.resolve(__dirname, 'dist')));
